@@ -163,6 +163,7 @@ public class CardButton extends JButton {
     if (card.isMatched()) {
         if (resizedCardImage != null) {
             setIcon(resizedCardImage);
+            setDisabledIcon(resizedCardImage);
             setText("");
             } else {
                 setIcon(null);
@@ -176,6 +177,7 @@ public class CardButton extends JButton {
         } else if (card.isRevealed()) {
         	 if (resizedCardImage != null) {
                  setIcon(resizedCardImage);
+                 setDisabledIcon(resizedCardImage);
                  setText("");
             } else {
                 setIcon(null);
@@ -189,6 +191,7 @@ public class CardButton extends JButton {
         } else {
         	 if (resizedBackImage != null) {
                  setIcon(resizedBackImage);
+                 setDisabledIcon(resizedBackImage);
                  setText("");
             } else {
                 setIcon(null);
