@@ -25,7 +25,7 @@ public class CardButton extends JButton {
     // Khởi tạo backImage
     static {
         try {
-            File backFile = new File("image/card_back.jpg");
+            File backFile = new File("image/card_back.png");
             if (backFile.exists()) {
                 BufferedImage backBufferedImage = ImageIO.read(backFile);
                 backImage = new ImageIcon(backBufferedImage);
