@@ -28,8 +28,8 @@ public class GameModel {
         List<Card> cardList = new ArrayList<>();
         
         // Danh sách các tên hình ảnh
-        String[] imageNames = {"apple.jpg", "banana.jpg", "starfruit.jpg", "grape.jpg", 
-                             "lemon.jpg", "orange.jpg", "pineapple.jpg", "watermelon.jpg"};
+        String[] imageNames = {"apple.png", "banana.png", "starfruit.png", "grape.png", 
+                             "lemon.png", "orange.png", "pineapple.png", "watermelon.png"};
         
         for (int i = 0; i < pairCount; i++) {
             String symbol = String.valueOf((char)('A' + i));
